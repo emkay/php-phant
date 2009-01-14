@@ -1,0 +1,156 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+CantFindTagsFile	phpsh/ctags.py	/^class CantFindTagsFile(Exception):$/;"	c
+Ctags	phpsh/ctags.py	/^class Ctags:$/;"	c
+CtagsFunctionSignatures	phpsh/ctags.py	/^class CtagsFunctionSignatures:$/;"	c
+I	math.php	/^\/* These math functions do use the php math operators. The only built in function I think that is used in this code is is_null.$/;"	f
+STDIN	phpsh/phpsh.php	/^  define('STDIN', fopen('php:\/\/stdin', 'r'));$/;"	d
+_	phpsh/phpsh.php	/^        $_ = $___phpsh___evalue;$/;"	v
+_MAX_LINE_SIZE	phpsh/phpsh.php	/^  var $_MAX_LINE_SIZE = 262144;$/;"	v
+_URLS	urls.php	/^$_URLS = array('http:\/\/news.ycombinator.com', 'Ycombinator',$/;"	v
+___PHPShell___	phpsh/phpsh.php	/^  function ___PHPShell___($output_from_includes='', $___phpsh___do_color) {$/;"	f
+___PHPShell___	phpsh/phpsh.php	/^class ___PHPShell___ {$/;"	c
+___phpsh___	phpsh/phpsh.php	/^$___phpsh___ = new ___PHPShell___($___phpsh___output_from_includes, $argv[0] == '-c');$/;"	v
+___phpsh___append_input	phpsh/phpsh.php	/^        $___phpsh___append_input = false;$/;"	v
+___phpsh___append_input	phpsh/phpsh.php	/^        $___phpsh___append_input = true;$/;"	v
+___phpsh___append_input	phpsh/phpsh.php	/^    $___phpsh___append_input = false;$/;"	v
+___phpsh___buf_len	phpsh/phpsh.php	/^      $___phpsh___buf_len = strlen($___phpsh___buffer);$/;"	v
+___phpsh___buf_len	phpsh/phpsh.php	/^    $___phpsh___buf_len = 0;$/;"	v
+___phpsh___buffer	phpsh/phpsh.php	/^        $___phpsh___buffer = 'return ' . substr($___phpsh___buffer, 1);$/;"	v
+___phpsh___buffer	phpsh/phpsh.php	/^        $___phpsh___buffer = fgets($this->_handle, $this->_MAX_LINE_SIZE);$/;"	v
+___phpsh___buffer	phpsh/phpsh.php	/^      $___phpsh___buffer = ltrim($___phpsh___buffer);$/;"	v
+___phpsh___clrp	phpsh/phpsh.php	/^    $___phpsh___clrp = $this->_cmd_line_ready_string . '>';$/;"	v
+___phpsh___did_arg	phpsh/phpsh.php	/^      $___phpsh___did_arg = true;$/;"	v
+___phpsh___did_arg	phpsh/phpsh.php	/^  $___phpsh___did_arg = false;$/;"	v
+___phpsh___do_color	phpsh/phpsh.php	/^      $___phpsh___do_color = false;$/;"	v
+___phpsh___do_color	phpsh/phpsh.php	/^$___phpsh___do_color = true;$/;"	v
+___phpsh___evalue	phpsh/phpsh.php	/^          $___phpsh___evalue = eval($___phpsh___buffer);$/;"	v
+___phpsh___evalue	phpsh/phpsh.php	/^          $___phpsh___evalue = null;$/;"	v
+___phpsh___evalue	phpsh/phpsh.php	/^        $___phpsh___evalue = eval($___phpsh___buffer);$/;"	v
+___phpsh___interfaces	phpsh/phpsh.php	/^      $___phpsh___interfaces = array();$/;"	v
+___phpsh___interfaces	phpsh/phpsh.php	/^      $___phpsh___interfaces = get_declared_interfaces();$/;"	v
+___phpsh___methods	phpsh/phpsh.php	/^      $___phpsh___methods = array_merge($___phpsh___methods, get_class_methods($___phpsh___class));$/;"	v
+___phpsh___methods	phpsh/phpsh.php	/^    $___phpsh___methods = array();$/;"	v
+___phpsh___options_possible	phpsh/phpsh.php	/^      $___phpsh___options_possible = false;$/;"	v
+___phpsh___options_possible	phpsh/phpsh.php	/^$___phpsh___options_possible = true;$/;"	v
+___phpsh___out	phpsh/phpsh.php	/^      $___phpsh___out = ob_get_contents();$/;"	v
+___phpsh___output_from_includes	phpsh/phpsh.php	/^$___phpsh___output_from_includes = ob_get_contents();$/;"	v
+__construct	phpsh/phpsh.php	/^  function __construct($___phpsh___output_from_includes='', $___phpsh___do_color) {$/;"	f
+__destruct	phpsh/phpsh.php	/^  function __destruct() {$/;"	f
+__init__	phpsh/ctags.py	/^    def __init__(self, tagsFilePath=None):$/;"	m	class:Ctags
+__init__	phpsh/ctags.py	/^    def __init__(self, tagsFilePath=None):$/;"	m	class:CtagsFunctionSignatures
+__send_autocomplete_identifiers	phpsh/phpsh.php	/^  function __send_autocomplete_identifiers() {$/;"	f
+_ans	phpsh/phpsh.php	/^        $_ans = $___phpsh___evalue;$/;"	v
+_cmd_line_ready_string	phpsh/phpsh.php	/^  var $_cmd_line_ready_string = 'phpCommandLineReadyToGo';$/;"	v
+_handle	phpsh/phpsh.php	/^  var $_handle = STDIN;$/;"	v
+_interactive_loop	phpsh/phpsh.php	/^  function _interactive_loop($___phpsh___do_color) {$/;"	f
+action	web.php	/^function form($name, $fields, $action='post') {$/;"	v
+add	math.php	/^function add() {$/;"	f
+add5	examples.php	/^$add5 = adder(5);$/;"	v
+adder	examples.php	/^function adder($x) {$/;"	f
+args	phpphant.php	/^function when($x, $test, $y, $fn, $args=null) {$/;"	v
+attributes	web.php	/^function linker($words, $href, $attributes=array()) {$/;"	v
+attributes	web.php	/^function start_tag($tag, $attributes=array()) {$/;"	v
+attributes	web.php	/^function tag($tag, $body, $attributes=array(), $print=false) {$/;"	v
+caar	base.php	/^function caar($list) {$/;"	f
+cadr	base.php	/^function cadr($list) {$/;"	f
+car	base.php	/^function car($list) {$/;"	f
+cdr	base.php	/^function cdr($list) {$/;"	f
+cons	base.php	/^function cons($value, $list) {$/;"	f
+def_fun	base.php	/^function def_fun($name, $args, $code) {$/;"	f
+defined_functions	phpsh/phpsh.php	/^    $defined_functions = get_defined_functions();$/;"	v
+div	math.php	/^function div($x, $y) {$/;"	f
+divisable	math.php	/^function divisable($x,$y) {$/;"	f
+doctype	web.php	/^function doctype() {$/;"	f
+end_tag	web.php	/^function end_tag($tag) {$/;"	f
+eq	math.php	/^function eq($x, $y) {$/;"	f
+exists	phpsh/phpsh.php	/^    \/\/ We'll check to see if the function exists instead of $/;"	f
+fieldize	web.php	/^function fieldize($name, $type='text', $ret=array()) {$/;"	f
+filter	phpphant.php	/^function filter($fn, $list, $new_list=array()) {$/;"	f
+findTagsFile	phpsh/ctags.py	/^def findTagsFile(dir=None, tagsFileName="tags"):$/;"	f
+firsts	phpphant.php	/^function firsts($list) {$/;"	f
+form	web.php	/^function form($name, $fields, $action='post') {$/;"	f
+from	phpphant.php	/^ * use function from base.php and math.php. The third rule was to make each function as short as possible. That is why you see the possibly $/;"	f
+fx	base.php	/^function fx($body) {$/;"	f
+gensym	base.php	/^function gensym() {$/;"	f
+gt	math.php	/^function gt($x, $y) {$/;"	f
+gte	math.php	/^function gte($x, $y) {$/;"	f
+hashcar	base.php	/^function hashcar($hash) {$/;"	f
+href	web.php	/^	$href = 'href=' . "'$href'";$/;"	v
+html_encode	web.php	/^function html_encode($s) {$/;"	f
+input	web.php	/^function input($name, $type='text', $class=null) {$/;"	f
+insertL	phpphant.php	/^function insertL($new, $old, $lat) {$/;"	f
+insertR	phpphant.php	/^function insertR($new, $old, $lat) {$/;"	f
+is	math.php	/^function is($x, $y) {$/;"	f
+is_atom	base.php	/^function is_atom($a) {$/;"	f
+is_lat	base.php	/^function is_lat($list) {$/;"	f
+is_member	phpphant.php	/^function is_member($a, $lat) {$/;"	f
+is_not	math.php	/^function is_not($x, $y) {$/;"	f
+is_zero	math.php	/^function is_zero($a) {$/;"	f
+label	web.php	/^function label($name, $for) {$/;"	f
+lambda	base.php	/^function lambda($args, $expr) {$/;"	f
+leftmost	phpphant.php	/^function leftmost($list) {$/;"	f
+length	phpphant.php	/^function list_length($s, $length=0) {$/;"	v
+li	web.php	/^function li($body) {$/;"	f
+linker	web.php	/^function linker($words, $href, $attributes=array()) {$/;"	f
+lis	web.php	/^	$lis = map(li, $elements);$/;"	v
+list_length	phpphant.php	/^function list_length($s, $length=0) {$/;"	f
+lt	math.php	/^function lt($x, $y) {$/;"	f
+lte	math.php	/^function lte($x, $y) {$/;"	f
+map	phpphant.php	/^function map($fn, $list, $new_list=array()) {$/;"	f
+mostly	phpsh/phpsh.php	/^ * This class mostly exists as a proxy for a namespace$/;"	c
+mul	math.php	/^function mul() {$/;"	f
+mul5	examples.php	/^function mul5($n) {$/;"	f
+mul_list	math.php	/^function mul_list($list, $total=null) {$/;"	f
+name	base.php	/^	$name = gensym();$/;"	v
+name	web.php	/^function ul($elements, $name=null) {$/;"	v
+names	phpsh/phpsh.php	/^    \/\/ send function names -- both user defined and built-in$/;"	f
+neq	math.php	/^function neq($x, $y) {$/;"	f
+new_hash	base.php	/^	$new_hash = $hash;$/;"	v
+new_list	base.php	/^	$new_list = $list;$/;"	v
+new_list	phpphant.php	/^function filter($fn, $list, $new_list=array()) {$/;"	v
+new_list	phpphant.php	/^function map($fn, $list, $new_list=array()) {$/;"	v
+not_divisable	math.php	/^function not_divisable($x, $y) {$/;"	f
+number	base.php	/^	$number = rand();$/;"	v
+numbers	math.php	/^	$numbers = func_get_args();$/;"	v
+occur	phpphant.php	/^function occur($a, $lat) {$/;"	f
+parseFunctionSignatures	phpsh/ctags.py	/^def parseFunctionSignatures(tagsFilePath):$/;"	f
+parseTagsFile	phpsh/ctags.py	/^def parseTagsFile(tagsFilePath):$/;"	f
+php_escape	phpsh/phpsh.php	/^  function php_escape($s) {$/;"	f
+pick	phpphant.php	/^function pick($n, $lat) {$/;"	f
+print_br	web.php	/^function print_br($it) {$/;"	f
+print_it	phpphant.php	/^function print_it($it) {$/;"	f
+reduce	phpphant.php	/^function reduce($fn, $list, $value=null) {$/;"	f
+rember	phpphant.php	/^function rember($a, $lat) {$/;"	f
+ret	web.php	/^	$ret = '<' . $tag;$/;"	v
+s	phpphant.php	/^	$s = str_split($s);$/;"	v
+somearray	examples.php	/^$somearray = cdr($somearray);$/;"	v
+somearray	examples.php	/^$somearray = cons('a', array());$/;"	v
+somearray	examples.php	/^$somearray = cons('b', $somearray);$/;"	v
+somearray	examples.php	/^$somearray = cons('c', $somearray);$/;"	v
+start_tag	web.php	/^function start_tag($tag, $attributes=array()) {$/;"	f
+string_length	phpphant.php	/^function string_length($s) {$/;"	f
+sub	math.php	/^function sub() {$/;"	f
+sub_list	math.php	/^function sub_list($list, $total=null) {$/;"	f
+subst	phpphant.php	/^function subst($new, $old, $lat) {$/;"	f
+sum_list	math.php	/^function sum_list($list, $total=0) {$/;"	f
+tag	web.php	/^function tag($tag, $body, $attributes=array(), $print=false) {$/;"	f
+that	phpsh/phpsh.php	/^   * A function that escapes the weird case where the user sends our long and arbitrary cmd_line_ready_string as output$/;"	f
+total	math.php	/^	$total = is_null($total) ? car($list) : $total * car($list);$/;"	v
+total	math.php	/^	$total = is_null($total) ? car($list) : $total - car($list);$/;"	v
+total	math.php	/^function mul_list($list, $total=null) {$/;"	v
+total	math.php	/^function sub_list($list, $total=null) {$/;"	v
+total	math.php	/^function sum_list($list, $total=0) {$/;"	v
+type	web.php	/^function fieldize($name, $type='text', $ret=array()) {$/;"	v
+type	web.php	/^function input($name, $type='text', $class=null) {$/;"	v
+ul	web.php	/^function ul($elements, $name=null) {$/;"	f
+value	phpphant.php	/^	$value = $fn(car($list), $value);$/;"	v
+value	phpphant.php	/^function reduce($fn, $list, $value=null) {$/;"	v
+when	phpphant.php	/^function when($x, $test, $y, $fn, $args=null) {$/;"	f
+x	examples.php	/^\/\/$numbers = filter(fx('$x == 5 || $x == \\'a\\''), array('z',1,2,3,4,5,'a','b',6,7,8,9,'c'));$/;"	v
+x	math.php	/^	return $x == $y;$/;"	v
+x	math.php	/^	return $x === $y;$/;"	v
