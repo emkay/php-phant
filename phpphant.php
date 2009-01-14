@@ -1,13 +1,4 @@
 <?php 
-// phpphant copyright 2008 by Michael Matuzak
-
-/* Here is the meat that is accomplished by using base.php and math.php. The first rule was no loops. 
- * There isn't any code in here (except in the example.php file) that uses loops. The second rule was no built in php functions. 
- * I failed at this, but made some pretty big ground. I don't use that many and will continue to try and refactor these to only 
- * use function from base.php and math.php. The third rule was to make each function as short as possible. That is why you see the possibly 
- * hard to read one liners. I might put the one line return statements on multiple lines. It almost looks like Scheme if you do that and squint your
- * eyes. This is largely based on a book I read last year called The Little Schemer, so thanks to that book and php.net. 
- */
 require('base.php');
 require('math.php');
 
